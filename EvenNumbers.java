@@ -6,28 +6,27 @@ public class EvenNumbers {
         ArrayList<Integer> evenList = new ArrayList<>();
         int sum = 0;
 
-        for (int i = 1; i <= 50; i++) {
+        // Find even numbers between 1 to 100
+        for (int i = 1; i <= 100; i++) {
             if (i % 2 == 0) {
                 evenList.add(i);
                 sum += i;
             }
         }
 
-        System.out.println("Even Numbers: " + evenList);
+        // Display list
+        System.out.println("List of Even Numbers (1 to 100):");
+        System.out.println(evenList);
 
-        System.out.println("Three Minimum: "
-                + evenList.get(0) + ", "
-                + evenList.get(1) + ", "
-                + evenList.get(2));
+        // Minimum even number
+        int min = evenList.get(0);
+        System.out.println("Minimum Even Number: " + min);
 
-        int size = evenList.size();
+        // Maximum even number
+        int max = evenList.get(evenList.size() - 1);
+        System.out.println("Maximum Even Number: " + max);
 
-        System.out.println("Three Maximum: "
-                + evenList.get(size - 3) + ", "
-                + evenList.get(size - 2) + ", "
-                + evenList.get(size - 1));
-
-        double average = (double) sum / evenList.size();
-        System.out.println("Average: " + average);
+        // Total sum
+        System.out.println("Total Sum of Even Numbers: " + sum);
     }
 }
