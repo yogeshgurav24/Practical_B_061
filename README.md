@@ -10,13 +10,13 @@
         <th>Practical Set</th>
     </tr>
     <tr>
-        <td>[Your Name]</td>
-        <td>[Your Full Enrolment No.]</td>
+        <td>Deore Yogesh Sanju</td>
+        <td>202504104610061</td>
         <td>Set B</td>
     </tr>
     <tr>
-        <td>[Your Partner Name]</td>
-        <td>[Partner's Full Enrolment No.]</td>
+        <td>Anas Ansari</td>
+        <td>202504104610064</td>
         <td>Set A</td>
     </tr>
 </table>
@@ -33,7 +33,7 @@
 
 <h3>Subject</h3>
 <p>Cloud Computing with DevOps</p>
-ss
+
 <h3>Practical Overview</h3>
 <p>This repository contains practical exercises and assignments related to Cloud Computing with DevOps. It includes Python programs, GitHub operations, and proper documentation for all tasks.</p>
 
